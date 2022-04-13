@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/reseter.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script defer src="./js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      arrayStudents(defaultValues = [
+        {
+          name: 'Владимир',
+          patronymic: 'Вольфович',
+          surname: 'Жириновский',
+          dateBirth: [1996, '04', '25'],
+          yearStartLearning: '2015',
+          faculty: 'Международные Отношения',
+          id: `Владимир Вольфович Жириновский ${Math.random()}`
+        },
+        {
+          name: 'Владимир',
+          patronymic: 'Владимирович',
+          surname: 'Путин',
+          dateBirth: [2002, '10', '07'],
+          yearStartLearning: '2021',
+          faculty: 'Комитет Госбезопасности',
+          id: `Путин Владимир Владимирович ${Math.random()}`
+        },
+        {
+          name: 'Сергей',
+          patronymic: 'Викторович',
+          surname: 'Лавров',
+          dateBirth: [2000, '03', '21'],
+          yearStartLearning: '2019',
+          faculty: 'Международные Отношения',
+          id: `Лавров Сергей Викторович ${Math.random()}`
+        }
+      ]);
+    });
+  </script>
+  <title>База данных студентов</title>
+</head>
+<body>
+
+</body>
+</html>
